@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('/mnt/data/purple_flower_background.jpg'); /* Frame extracted from video */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-color: #bbbbf2;
+        }
+
+        .container1 {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color:#ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #6a0dad;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .contact-form input, 
+        .contact-form textarea {
+            margin-bottom: 15px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        .contact-form button {
+            background-color: #6a0dad;
+            color: white;
+            padding: 10px 15px;
+            font-size: 1em;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #4e0786;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #6a0dad;
+            font-size: 1.2em;
+        }
+
+        .social-links a:hover {
+            color: #4e0786;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header" style="background: radial-gradient(#fff,#bbbbf2)";>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="homePage.html"><img src="IMAGES/LOGO.png" alt="LAVENDER LANE" width="125px"></a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="homePage.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container1">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><strong>Email:</strong> support@flowerstore.com</p>
+            <p><strong>Phone:</strong> +91 8700488733</p>
+            <p><strong>Address:</strong> 123 Greenway Street, Blossom City, FL 54321</p>
+        </div>
+        <form class="contact-form">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Twitter</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Be Vocal For Local</h3>
+                    <p>Support local vendors and help our community blossom—every purchase makes a difference!</p>
+                </div>
+                <div class="footer-col-2">
+                    <img src="IMAGES/LOGO.png">
+                    <p>Bloom with Beauty, Flourish with Lavender Lane.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Our Socials</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/pranjil-singh-3b2b50292/">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/jil.singh/">Instagram</a></li>
+                        <li><a href="https://x.com/Jil_Sin">twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - Lavender Lane</p>
+        </div>
+    </div>
+</body>
+</html>

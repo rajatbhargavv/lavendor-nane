@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Address</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="address-form-container">
+        <h2>ENTER YOUR ADDRESS</h2>
+        <button class="location-button">Use my current location</button>
+        <form>
+            <div class="form-row">
+                <input type="text" placeholder="Name" required>
+                <input type="tel" placeholder="10-digit mobile number" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Pincode" required>
+                <input type="text" placeholder="Locality" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Address (Area and Street)" required>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="City/District/Town" required>
+                <select required>
+                    <option value="" disabled selected>--Select State--</option>
+                    <option value="state1">State 1</option>
+                    <option value="state2">State 2</option>
+                    <!-- Add more states as needed --><!--NO-->
+                </select>
+            </div>
+            <div class="form-row">
+                <input type="text" placeholder="Landmark (Optional)">
+                <input type="tel" placeholder="Alternate Phone (Optional)">
+            </div>
+            <div class="form-row address-type">
+                <label><input type="radio" name="addressType" value="home" required> Home (All day delivery)</label>
+                
+            </div>
+            <div class="form-row address-type">
+                
+                <label><input type="radio" name="addressType" value="work"> Work (10 AM - 5 PM)</label>
+            </div>
+            <div class="form-row">
+                <button type="submit" class="save-button">SAVE AND DELIVER HERE</button>
+                <a href="homePage.html"><button type="button" class="cancel-button">CANCEL</button></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
